@@ -1,0 +1,68 @@
+:root {
+}
+
+* {
+  margin: 0;
+  font-family: Work Sans;
+}
+header {
+  background-color: #fff4e7;
+}
+/* ----------------------------------
+---------------NAVBAR----------------
+ -----------------------------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 63px;
+}
+nav h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+/*-----------------------------------
+------------- BANNER-----------------
+--------------------------- ---------*/
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  gap: 50px;
+}
+h1 {
+  font-weight: 900;
+  font-size: 76px;
+  line-height: 75px;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.explore-more-btn {
+  padding: 10px 20px;
+  background: #ff900e;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  border-style: none;
+  color: white;
+}
+img {
+  width: 1440px;
+  height: 700px;
+}
+/* -----------------------------------------
+------------FEATURES LIST-SECTIN------------ 
+--------------------------------------------- */
